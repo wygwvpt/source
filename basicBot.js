@@ -2578,7 +2578,7 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void(0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void(0);
                     else {
-                        var link = '(Updated link coming soon)';
+                        var link = 'https://imgur.com/a/doZoKpf.png';
                         API.sendChat(subChat(basicBot.chat.starterhelp, {
                             link: link
                         }));
